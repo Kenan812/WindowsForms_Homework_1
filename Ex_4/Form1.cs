@@ -93,8 +93,6 @@ namespace Ex_4
         {
             TextBox t = (sender as TextBox);
 
-            List<TextBox> textBoxes = new List<TextBox>();
-
             if (e.Button == MouseButtons.Left)
             {
                 foreach (Control c in this.Controls)
